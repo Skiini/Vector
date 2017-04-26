@@ -37,7 +37,7 @@ Vector2 Matrix22::operator*(Vector2 newv1)
 
 Matrix22 Matrix22::RotationMatrix(float angle)
 {
-	return Matrix22(Vector2(cos(angle), -sin(angle)), Vector2(sin(angle), cos(angle)));
+	return Matrix22(Vector2(cos(angle), sin(angle)), Vector2(-sin(angle), cos(angle)));
 }
 
 Matrix22 Matrix22::Inverse()
