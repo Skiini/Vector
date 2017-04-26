@@ -7,6 +7,10 @@ Vector2::Vector2(float newX, float newY)
 	y = newY;
 }
 
+Vector2::Vector2()
+{
+}
+
 Vector2 Vector2::operator+(Vector2 v1)
 {
 	Vector2 v(0.0f, 0.0f);
